@@ -1,6 +1,11 @@
 # Moly-Root-Checker
 Shell script for detecting root environment on Android.
 
+## Download the script
+If you want to try this script, you can go there:
+#### 脚本下载：
+[下载 Download](Moly.zip)
+
 ## How does it work?
 ### 1.Module Detection
 Check if your module list path (data/adb/modules) contains Tricky Store or keybox.xml.
