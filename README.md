@@ -79,6 +79,11 @@ Retrieve the SELinux status via prop and display the SELinux policy version.
 ## Usage
 Execute the file with root privileges via Termux or other terminal emulators (root privileges do not affect the detection results).
 
+## Solutions and Suggestions
+Please read the help documentation in your corresponding language:
+#### 帮助文档：
+[中文](helps-CN.md) [English](helps-EN.md)
+
 ## Author's Note
 Thank you for using this script. This script is completely open-source. The author is a first-year junior high school student and does not have much energy for maintenance. I will regularly fix and update the script. Thank you for your support!
 
