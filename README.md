@@ -4,7 +4,7 @@ Shell script for detecting root environment on Android.
 ## Download the script
 If you want to try this script, you can go there:
 #### 脚本下载：
-[下载 Download](Moly.zip)
+[下载 Download](moly.zip)
 
 ## How does it work?
 ### 1.Module Detection
