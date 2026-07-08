@@ -20,22 +20,17 @@ Determine if the device's bootloader is unlocked by reading multiple build.prop 
 Our detection methods:
 
 #### 1. Module Path Detection
-
 Check the following paths for Xposed framework characteristics:
-
 1. /data/data
 2. /data/adb/modules
 
 #### 2. Process Inspection
-
 Read the process list via command to filter and check for Xposed framework-related processes.
 
 #### 3. System Properties
-
 Read system prop properties to search for characteristic traces (usually not present).
 
 #### 4. Library File Check
-
 Scan directories such as /system, /vendor, /product, etc., for the runtime libraries required by Xposed.
 
 ### 5.Zygisk Injection
@@ -80,6 +75,12 @@ Additionally, scan for mount bind and overlay mount points.
 
 ### 7.SeLinux Status Detection
 Retrieve the SELinux status via prop and display the SELinux policy version.
+
+### 8.USB Debug Detection
+Check if USB debugging is enabled via system properties and ADB process detection.
+
+### 9.Soter Key Detection
+Check Soter key status (WeChat Pay security component) via system properties and file existence.
 
 ## Usage
 Execute the file with root privileges via Termux or other terminal emulators (root privileges do not affect the detection results).
